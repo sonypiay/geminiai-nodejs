@@ -42,7 +42,6 @@ stdin.on("data", async (chunk) => {
         stdout.write("Jawaban: \n");
         console.log(response.text);
         stdout.write("\n");
-        stdout.write(`Token yang digunakan: ${response.usageMetadata.totalTokens}\n`);
         stdout.write("Silakan masukkan prompt anda. Ketik 'exit' untuk keluar:\n");
     }
 });
