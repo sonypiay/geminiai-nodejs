@@ -1,0 +1,21 @@
+{
+  "name": "gemini-ai-nodejs",
+  "version": "1.0.0",
+  "description": "Gemini AI Exploration",
+  "keywords": [
+    "geminiai",
+    "nodejs",
+    "javascript"
+  ],
+  "license": "MIT",
+  "author": "sonypiay",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.38.0",
+    "dotenv": "^17.2.3"
+  }
+}
